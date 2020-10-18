@@ -5551,31 +5551,6 @@ blockquote.pullquote.right {
   --blockquote-bg: #2c2c2c;
   --reward-pop: #2c2c2c;
   --sidebar-icon-color: rgba(255,255,255,0.7);
-/*#article-container
-      pre,
-      .highlight:not(.js-file-line-container)
-        background-color: lighten(#121212, 2) !important
-        color: alpha(#FFFFFF, .7) !important
-
-      figure.highlight
-        box-shadow: none
-
-        if hexo-config('rootConfig.highlight') && hexo-config('rootConfig.highlight.enable')
-          table::-webkit-scrollbar-thumb
-            background: lighten(#121212, 5)
-
-          .line:before
-            color: alpha(#FFFFFF, .7) !important
-
-          .hljs
-            background-color: lighten(#121212, 2) !important
-
-        pre[class*='language-']::-webkit-scrollbar-thumb
-          background: lighten(#121212, 5)
-
-        .highlight-tools
-          background: lighten(#121212, 3) !important
-          color: #90a4ae !important*/
 }
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
@@ -5600,6 +5575,26 @@ blockquote.pullquote.right {
   background: rgba(18,18,18,0.8);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0);
+}
+[data-theme='dark'] #article-container pre,
+[data-theme='dark'] #article-container .highlight:not(.js-file-line-container) {
+  background-color: #171717 !important;
+}
+[data-theme='dark'] #article-container figure.highlight {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+[data-theme='dark'] #article-container figure.highlight table::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+}
+[data-theme='dark'] #article-container figure.highlight .hljs {
+  background-color: #171717 !important;
+}
+[data-theme='dark'] #article-container figure.highlight pre[class*='language-']::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+}
+[data-theme='dark'] #article-container figure.highlight .highlight-tools {
+  background: #1a1a1a !important;
 }
 [data-theme='dark'] #post-comment .comment-switch label {
   filter: brightness(0.8);
