@@ -4108,8 +4108,8 @@ _:future,
 #article-container h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
-  color: #f47466;
-  content: '\f0c1';
+  color: #ff6b9c;
+  content: '\f1b0';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
