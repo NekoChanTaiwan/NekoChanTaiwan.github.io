@@ -1512,7 +1512,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(/img/background.jpg);
+  background: url(https://i.imgur.com/3Qc44x7.png);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -2409,8 +2409,8 @@ blockquote footer cite:before {
   height: 20em;
   border-radius: 12px 8px 8px 12px;
   background: var(--card-bg);
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+  -webkit-box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px;
+  box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2423,8 +2423,8 @@ blockquote footer cite:before {
   }
 }
 #recent-posts > .recent-post-item:hover {
-  -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
-  box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+  -webkit-box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(0,255,255,0.4) 0px 0px 40px;
+  box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(0,255,255,0.4) 0px 0px 40px;
 }
 #recent-posts > .recent-post-item:hover img.post_bg {
   -webkit-transform: scale(1.1);
@@ -2604,8 +2604,8 @@ blockquote footer cite:before {
   margin-top: 1rem;
   border-radius: 8px;
   background: var(--card-bg);
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+  -webkit-box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px;
+  box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2613,8 +2613,8 @@ blockquote footer cite:before {
   transition: all 0.3s;
 }
 #aside_content .card-widget:hover {
-  -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
-  box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+  -webkit-box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(0,255,255,0.4) 0px 0px 40px;
+  box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(0,255,255,0.4) 0px 0px 40px;
 }
 #aside_content .card-info img {
   width: 110px;
@@ -3469,7 +3469,7 @@ _:future,
   position: relative;
   padding-bottom: 0.3rem;
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
-  font-size: 0.78em;
+  font-size: 1em;
   cursor: pointer;
 }
 .loading-bg,
@@ -5749,7 +5749,7 @@ blockquote.pullquote.right {
   --tab-botton-color: rgba(255,255,255,0.7);
   --tab-button-hover-bg: #383838;
   --tab-button-active-bg: #121212;
-  --card-bg: #1d1d1d;
+  --card-bg: rgba(29,29,29,0.7);
   --sidebar-bg: #1d1d1d;
   --btn-hover-color: #787878;
   --btn-color: rgba(255,255,255,0.7);
@@ -5769,7 +5769,7 @@ blockquote.pullquote.right {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.2);
   content: '';
 }
 [data-theme='dark'] #article-container code {
