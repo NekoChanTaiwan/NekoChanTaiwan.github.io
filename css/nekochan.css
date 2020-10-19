@@ -54,6 +54,7 @@
     user-select: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: rgba(245,122,122,0.4) 0px 0px 10px, rgba(245,122,122,0.4) 0px 0px 20px, rgba(245,122,122,0.4) 0px 0px 30px, rgba(245,122,122,0.5) 0px 0px 50px, rgba(245,122,122,0.6) 0px 0px 70px;
 }
 #footer:before {
     background-color: rgba(0, 0, 0, 0);
@@ -183,3 +184,4 @@
 /**********************************************************************************************/
 /* Mac代碼美化 */
 #article-container figure.highlight,#article-container pre{color:#e8e8e8;background:#333333}#article-container figure.highlight .highlight-tools{background:#3f3f3f;color:#fff}#article-container figure.highlight .gutter pre{color:#d3d3d3;background:#777777}#article-container figure.highlight figcaption a{color:#a9a9a9!important}
+/**********************************************************************************************/
