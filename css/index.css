@@ -3083,7 +3083,6 @@ blockquote footer cite:before {
   color: #fff;
   font-size: 1.85em;
   text-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(255,255,0,0.4) 0px 0px 40px, rgba(255,255,0,0.4) 0px 0px 70px, rgba(255,255,0,0.4) 0px 0px 80px, rgba(255,255,0,0.4) 0px 0px 100px;
-  --darkreader-inline-color: #e8e6e3;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-title {
@@ -3092,8 +3091,8 @@ blockquote footer cite:before {
 }
 #page-header #site-subtitle {
   color: #fff;
-  text-shadow: rgba(255,255,255,0.8) 0px 0px 10px, rgba(255,255,255,0.8) 0px 0px 20px, rgba(255,255,255,0.8) 0px 0px 30px, rgba(255,0,102,0.8) 0px 0px 40px, rgba(255,0,102,0.8) 0px 0px 70px, rgba(255,0,102,0.8) 0px 0px 80px, rgba(255,0,102,0.8) 0px 0px 100px;
   font-size: 1.15em;
+  text-shadow: rgba(255,255,255,0.8) 0px 0px 10px, rgba(255,255,255,0.8) 0px 0px 20px, rgba(255,255,255,0.8) 0px 0px 30px, rgba(255,0,102,0.8) 0px 0px 40px, rgba(255,0,102,0.8) 0px 0px 70px, rgba(255,0,102,0.8) 0px 0px 80px, rgba(255,0,102,0.8) 0px 0px 100px;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-subtitle {
