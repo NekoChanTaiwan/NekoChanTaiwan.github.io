@@ -2423,6 +2423,7 @@ blockquote footer cite:before {
   }
 }
 #recent-posts > .recent-post-item:hover {
+  background: rgba(0,0,0,0.78);
   -webkit-box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(0,255,255,0.4) 0px 0px 40px;
   box-shadow: rgba(255,255,255,0.4) 0px 0px 10px, rgba(255,255,255,0.4) 0px 0px 20px, rgba(255,255,255,0.4) 0px 0px 30px, rgba(0,255,255,0.4) 0px 0px 40px;
 }
