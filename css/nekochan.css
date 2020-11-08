@@ -1,11 +1,13 @@
 /* Menu Item 彩色選單 */
 /* .Icon:before{color:Hex Color} */
 .fa-home:before{color:#ff5656;}
-.fa-archive:before{color:#fa9747}
-.fa-tags:before{color:#fadc49}
-.fa-folder-open:before{color:#47fb74}
-.fa-book-open:before{color:#506bff}
-.fa-heart:before{color:#ff5ce4}
+.fa-archive:before{color:#fa9747;}
+.fa-tags:before{color:#fadc49;}
+.fa-folder-open:before{color:#47fb74;}
+.fa-book-open:before{color:#506bff;}
+.fa-heart:before{color:#ff5ce4;}
+.fa-database:before{color:#009919;}
+.fa-rocket:before{color:#00d3d3;}
 
 /* Site Name & Subtitle 螢光標題*/
 #page-header #site-title {
