@@ -90,14 +90,21 @@
   </url>
   
   <url>
-    <loc>http://nekochan.cf/categories/VScode-%E5%BB%B6%E4%BC%B8%E6%A8%A1%E7%B5%84/</loc>
+    <loc>http://nekochan.cf/categories/%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF/%E4%B8%BB%E9%A1%8C%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2020-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://nekochan.cf/categories/%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF/%E4%B8%BB%E9%A1%8C%E7%BE%8E%E5%8C%96/</loc>
+    <loc>http://nekochan.cf/categories/%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF/VScode/</loc>
+    <lastmod>2020-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://nekochan.cf/categories/%E7%B6%B2%E9%A0%81%E5%89%8D%E7%AB%AF/VScode/%E5%BB%B6%E4%BC%B8%E6%A8%A1%E7%B5%84/</loc>
     <lastmod>2020-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
